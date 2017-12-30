@@ -7,7 +7,7 @@ def print_numbers(number):
         print()
 
 
-number=int(input("please enter a number"))
+number=int(input("please enter a number: "))
 
 if number%2==0:
     print_numbers(number+1)
